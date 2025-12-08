@@ -1,0 +1,50 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("red-white-track-closeup.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#h1 {
+    font-size: 3rem;
+    font-family: "Major Mono Display", monospace;
+    font-weight: bold;
+    font-style: normal;
+    color: black(58, 4, 109);
+    text-shadow: 3px 3px 3px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 5px solid;
+    border-radius: 50px;
+    border-color: rgb(29, 29, 29);
+}
+
+#display {
+    font-size: 4rem;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px 2px grey;
+    margin-bottom: 25px;
+}
+
+#controls button{
+    cursor: crosshair;
+    background: none;
+    width: 5rem;
+}
+
+
+
+/* */
+
